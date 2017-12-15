@@ -18,8 +18,8 @@
       <file leaf-file-name="User.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/controllers/User.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="14" column="48" lean-forward="true" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+            <state relative-caret-position="75">
+              <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -133,7 +133,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="148" />
+    <option name="x" value="453" />
     <option name="y" value="70" />
     <option name="width" value="1246" />
     <option name="height" value="777" />
@@ -389,15 +389,15 @@
       <option name="presentableId" value="Default" />
       <updated>1513306208025</updated>
       <workItem from="1513306209970" duration="1873000" />
-      <workItem from="1513308165666" duration="1514000" />
+      <workItem from="1513308165666" duration="2408000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3387000" />
+    <option name="totallyTimeSpent" value="4281000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="148" y="70" width="1246" height="777" extended-state="0" />
+    <frame x="453" y="70" width="1246" height="777" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -603,8 +603,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="14" column="48" lean-forward="true" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+        <state relative-caret-position="75">
+          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
           <folding />
         </state>
       </provider>
