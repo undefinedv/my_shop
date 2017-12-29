@@ -43,13 +43,41 @@ class User extends CI_Controller {
             );
         }
         else{
-            echo "<script>alert();";
+            echo "<script>alert('login failed!Please try again or register first!');";
         }
 
     }
 
     public function register()
     {
+	$username=$this->input->post('username');
+	$password=$this->input->post('password');
+	$address=$this->input->post('address');
+	$phone=$this->input->post('phone');
+	if($this->UserModel->register($username,$password,$address,$phone))
+	{
+		$data=array(
+			"user_id"
+		);
+	}
+	else{
+		echo "<script>alert('register failed!');";
+	}
+    }
 
+    public function changeinfo()
+    {
+    	$user_id=$this->input->post('user_id');
+	$phone=$this->input->post('phone');
+	$address=$this->input->post('address');
+	if($this->UserModel->edit_userInfo($user_id,$phone,$address))
+	{
+		$data=array(
+			"user_id"
+		);
+	}
+	else{
+		echo "<script>alert('change your information failed!')";
+	}
     }
 }
