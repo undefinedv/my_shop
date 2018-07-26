@@ -74,10 +74,10 @@ $active_group = 'default';
 $query_builder = TRUE;
 
 $db['default'] = array(
-	'dsn'	=> 'mysql:dbname=feicuimaster;host=127.0.0.1',
+	'dsn'	=> 'mysql:dbname=my_shop;host=127.0.0.1',
 	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => 'hduisa',
+	'username' => 'bj',
+	'password' => 'baijin12',
 	'database' => 'my_shop',
 	'dbdriver' => 'pdo',
 	'dbprefix' => '',

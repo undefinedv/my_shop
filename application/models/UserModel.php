@@ -34,16 +34,18 @@ class UserModel extends CI_Model{
         }
     }
 
-    public function register($username, $password)
+    public function register($username, $password,$address,$tel)
     {
         if($this->check_register($username) == True)
         {
             return False;
         }
-        $sql = "insert into user(username, password) values(:username, password)";
+        $sql = "insert into user(username, password,address,tel) values(:username,:password,:address,:tel)";
         $sql_array = array(
             ":username" => $username,
-            ":password" => $password
+	    ":password" => $password,
+	    ":address"  => $address,
+	    ":tel"      => $tel  
         );
         $stmt = $this->pdo->prepare($sql);
         $stmt->execute($sql_array);
@@ -77,7 +79,7 @@ class UserModel extends CI_Model{
     }
     public function edit_userInfo($user_id, $phone, $address)
     {
-        $sql = "update user set phone = :phone, address = :address where id = :id";
+        $sql = "update user set tel = :phone, address = :address where id = :id";
         $sql_array = array(
             ":phone" => $phone,
             ":address" => $address,
